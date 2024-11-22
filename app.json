@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "9_crud",
-    "slug": "9_crud",
+    "name": "CRUD",
+    "slug": "crud",
+    "scheme": "crud",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -23,6 +24,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
   }
 }
